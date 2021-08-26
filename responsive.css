@@ -1,0 +1,309 @@
+@media (min-width: 668px) and ( max-width: 1030px ){
+    .res-card, .res-follower{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #aboveNav{
+        display: none;
+
+    }
+
+    #navigation{
+        display: block;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    #header .h-child div{
+        width: 65vw;
+    }
+
+    #column{
+        width: 98vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .down{
+        margin-top: 150px;
+    }
+
+    .about{
+        width: 98vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #image{
+        width: 50vw;
+    }
+
+    #image img{
+        width: 100vw;
+        height: 300px;
+    }
+
+    #releases{
+        margin-top: 150px;
+        width: 100vw;
+    }
+    
+    #releases .boostbook{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    
+    #releases .boostbook .books1{
+        margin-left: -8px;
+    }
+
+    #releases .boostbook .oneline{
+        width: 100vw;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #releases .boostbook .books3{
+        margin-right: -8px;
+    }
+    
+    #releases .boostbook .bookas{
+        margin: 10px;
+    }
+    
+    #releases .boostbook .bookas img{
+        width: 400px;
+        height: 350px;
+    }
+    
+    #releases .boostbook .bookas img:hover{
+        cursor: pointer;
+        width: 390px;
+        height: 340px;
+        opacity: 0.6;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    #releases .boostbook .books2{
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #releases .boostbook .books2 .mid{
+        width: inherit;
+    }
+    
+    #releases .boostbook .books2 .mid img{
+        height: 500px;
+        width: 33vw;
+        margin-left: 33vw;
+    }
+    
+    #releases .boostbook .mid img:hover{
+        cursor: pointer;
+        width: 35vw;
+        height: 490px;
+        opacity: 0.6;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .belog{
+        width: 98vw;
+        
+    }
+
+    .blogger{
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #blog .blogger .cards{
+        text-align: center;
+        width: 250px;
+        margin: 0 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #blog .blogger .cards img{
+        width: 250px;
+        height: 200px;    
+    }
+
+    #blog .blogger .cards .round{
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background-color: #f5f4f0;
+        margin: -50px 0 0 70px;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #footer{
+        width: 98vw;
+    }
+
+    .foots{
+        width: 40vw;
+        text-align: center;
+    }
+}
+
+        
+/* PHONE RESPONSIVENESS */
+@media  screen and (max-width: 668px) {
+    #navigation{
+        display: block;
+    }
+
+    #aboveNav{
+        display: none;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    #header{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #header .h-child .myclass{
+        font-size: 16px;
+        font-size: 16px;
+        height: 48px;
+        padding: 0 20px;
+        font-weight: 350;
+        margin: 50px 18px;
+        font-family: "Lora",serif;
+        background: #95adbe !important;
+        color: white !important;
+        border: none;
+        display: inline;
+    }
+    
+    #header .h-child .myclass2{
+        background: white !important;
+        color: black !important;
+        border: none;
+        display: inline;
+    }
+
+    #header .h-child{
+        padding: 125px 0 125px 20px;
+    }
+
+    #header .h-child div{
+        width: 90vw;
+    }
+
+    #card-fam{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #column{
+        flex-direction: column;
+    }
+
+    #column .card{
+        margin-bottom: 68px;
+    }
+
+    #follower .content h2{
+        font-size: 35px;
+        word-spacing: 3em;
+    }
+
+    #follower .content{
+        width: 50vw;
+        line-height: normal;
+    }
+
+    #about{
+        flex-direction: column;
+        
+    }
+
+    #about .sidebar{
+        width: 100vw;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #about .sidebar img{
+        width: 100vw;
+        height: 600px;
+        margin-left: 18px;
+    }
+
+    #about .side-content{
+        text-align: center;
+        width: 100vw;
+    }
+
+    #about .sidebar h1{
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+        line-height: 45px;
+    }
+    
+    #about .sidebar p{
+        font-size: 18px;
+        margin: 0;
+        line-height: 23px;
+        padding: 0;
+        color: rgb(70, 67, 67);
+    }
+
+    #about .sidebar .myclass{
+        margin: 10px 0;
+    }
+
+    #releases .boostbook{
+        flex-direction: column;
+    }
+
+    .boostbook .bookas img{
+        width: 100vw;
+        height: 150px;
+    }
+
+    .boostbook .mid img{
+        width: 100vw;
+        height: 150px;
+    }
+
+    #clients{
+        display: none;
+    }
+
+    #blog .blogger{
+        flex-direction: column;
+    }
+
+    #footer{
+        display: none;
+    }
+
+    #copyright{
+        padding: 0;
+        margin: 0;
+    }
+}

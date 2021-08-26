@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ABOVE NAV SECTION */
+#aboveNav{
+    margin-top: 2%;
+    font-family: "Lora",serif;
+    width: 98vw;
+    max-height: 15vh;
+    display: flex;
+}
+
+#aboveNav .child1{
+    width: 33vw;
+}
+
+.child2{  
+   text-align: center;
+    text-transform: uppercase;
+    width: 33vw;
+    font-family: "Lora",serif;
+}
+
+.child2 h1{
+    font-weight: bold;
+    padding: 0;
+    font-size: 25px;
+}
+
+.child2 span{
+    color:rgb(243 64 10);
+}
+
+#aboveNav .child3{
+   width: 33vw;
+  
+}
+
+#aboveNav .search{
+    font-family: "Lora",serif;
+    height: 50px;
+    width: 300px;
+    background-color: #c9c4c4;
+    color: black;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 34px;
+    font-size: 18px;
+    padding: 0 22px;
+    float: right;
+    margin-top: 10px;
+}
+
+#navigation{
+    display: none;
+}
+
+/* NAVBAR SECTION */
+#navbar{
+    margin-top: 50px;
+    border-top: 1px solid #e6e2e2;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar .list-item{
+    margin-top: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#navbar .list-item li a{
+    font-family: "Lora",serif;
+    padding: 5px 25px;
+    color: black;
+    text-decoration: none;
+}
+
+#navbar .list-item li a:hover{
+    color: #95adbe;
+    border-bottom: 2px solid #95adbe;
+    transition: border-bottom 0.2s ease-in-out forwards;
+}
+
+
+/* HEADER SECTION */
+#header{
+    width: 100%;
+    font-family: "Lora",serif;
+    
+    margin-top: 10px;
+    background: url("bg1.jpg") no-repeat fixed center/cover;
+}
+
+#header .h-child{
+    align-items: center;
+    justify-content: center;
+    padding: 125px 125px;
+}
+
+#header .h-child div{
+    width: 45vw;
+    
+}
+
+#header .h-child h1{
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 60px;
+}
+
+#header .h-child p{
+    font-size: 25px;
+}
+
+#header .h-child .myclass{
+    font-size: 18px;
+    height: 60px;
+    padding: 0 30px;
+    font-weight: 350;
+    margin: 50px 10px;
+    font-family: "Lora",serif;
+    background: #95adbe !important;
+    color: white !important;
+    border: none;
+}
+
+#header .h-child .myclass2{
+    background: white !important;
+    color: black !important;
+    border: none;
+}
+
+/* #header::before{
+    content: "";
+    background: url("bg1.jpg") no-repeat fixed center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+} */
+
+/* CARD FAMILY SECTION */
+#card-fam{
+    margin-top: -50px;
+    width: 98vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: down 0.8s ease;
+}
+
+@keyframes down{
+    0%{
+        transform: translateY(-150px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+#column{
+    display: flex;
+    flex-direction: row;
+    width: 49vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#card-fam .card{
+    font-family: "Lora",serif;
+    color: rgb(121 118 118 / 72%);
+    height: 250px;
+    width: 250px;
+    margin: 0 50px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+#card-fam .card img{
+    width: 200px;
+    height: 185px;
+    border-radius: 50%;
+    background-color: wheat;
+}
+
+#card-fam .card h3{
+    font-weight: 400;
+    color: rgb(70, 67, 67);
+}
+
+/* FOLLOWERS SECTION */
+#follower{
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    background-color: #f2ede59c;
+}
+
+#follower .content{
+    font-family: "Lora",serif;
+    padding: 30px 120px;
+    line-height: 3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+#follower .content h2{
+    font-size: 50px;
+    word-spacing: 3em;
+}
+
+/* ABOUT */
+#about{
+    display: flex;
+    margin-top: 100px;
+    font-family: "Lora",serif;
+}
+
+#about .sidebar{
+    width: 700px;
+}
+
+#about .sidebar img{
+    margin-left: 10vw;
+    width: 500px;
+    height: 550px;
+}
+
+#about .sidebar .p1{
+    padding-top: 35px;
+    color:rgb(243 64 10);
+    font-family: "Lora",serif;
+    text-transform: uppercase;
+}
+
+#about .sidebar h1{
+    font-size: 60px;
+    padding-left: 100px;
+}
+
+#about .sidebar p{
+    font-size: 20px;
+    padding-left: 100px;
+    color: rgb(70, 67, 67);
+}
+
+#about .sidebar .myclass{
+    font-size: 18px;
+    height: 60px;
+    padding: 0 30px;
+    font-weight: 350;
+    background: #95adbe !important;
+    color: white !important;
+    border: none !important;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+/* RELEASE SECTION */
+#releases{
+    margin-top: 150px;
+    width: 100vw;
+}
+
+#releases .title{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lora",serif;
+    font-weight: 500;
+}
+
+#releases .title p{
+    text-transform: uppercase;
+    color: rgb(243 64 10);
+}
+
+#releases .title h1{
+    font-size: 50px;
+    color: rgb(63, 62, 62);
+}
+
+#releases .boostbook{
+    display: flex;
+    width: 100vw;
+}
+
+#releases .boostbook .books1{
+    margin-left: -8px;
+}
+
+#releases .boostbook .books3{
+    margin-right: -8px;
+}
+
+#releases .boostbook .bookas{
+    margin: 20px;
+}
+
+#releases .boostbook .bookas img{
+    width: 450px;
+    height: 400px;
+}
+
+#releases .boostbook .bookas img:hover{
+    cursor: pointer;
+    width: 440px;
+    height: 390px;
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+}
+
+#releases .boostbook .mid{
+    margin-top: 20px;
+}
+
+#releases .boostbook .mid img{
+    height: 820px;
+}
+
+#releases .boostbook .mid img:hover{
+    cursor: pointer;
+    width: 540px;
+    height: 810px;
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+}
+
+/* CLIENT SECTION */
+#clients{
+    color: black;
+    font-family: "Lora",serif;
+    margin-top: 100px;
+    width: 98vw;
+    height: 60vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: url("clients2.jpg") no-repeat center center/cover;
+    opacity: 0.6;
+    word-spacing: 1rem ;
+    font-weight: 500;
+}
+
+#clients .ptag{
+    padding: 3rem;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#clients h1{
+    font-size: 60px;
+}
+
+/* #clients::after{
+    content: "";
+    background: url("clients2.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}  */
+
+/* CAROUSAL SECTION */
+/* #carousel{
+    margin-top: -80px;
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    background: transparent;
+}
+
+#carousel .slides{
+    width: 20vw;
+    margin: 0 2.5vw;
+} */
+
+/* BLOG SECTION */
+#blog{
+    width: 98vw;
+    margin-top: 150px;
+    font-family: "Lora",serif;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#blog .heading{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lora",serif;
+    font-weight: 500;
+}
+
+#blog .heading p{
+    text-transform: uppercase;
+    color: rgb(243 64 10);
+}
+
+#blog .heading h1{
+    font-size: 50px;
+    color: rgb(63, 62, 62);
+}
+
+#blog .blogger{
+    display: flex;
+    margin: 50px 0;
+    width: 98vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#blog .blogger .cards{
+    text-align: center;
+    width: 350px;
+    margin: 0 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#blog .blogger .cards img{
+    width: 350px;
+    height: 250px;
+    
+}
+
+#blog .blogger .cards .round{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #f5f4f0;
+    margin: -50px 0 0 112px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+#blog .blogger .cards .round h2{
+    color: #95adbe;
+}
+
+#blog .blogger .cards:hover .round{
+    background-color: #95adbe;
+    transition: background-color 0.2s ease-in;
+}
+
+#blog .blogger .cards:hover .round h2{
+    color: white;
+}
+
+/* FOOTER SECTION */
+#footer{
+    width: 98vw;
+    margin-top: 150px;
+    background-color: #1a1a1a;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#footer h4{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 50px;
+}
+
+#footer .foots{
+    color: white;
+    width: 40vw;
+    text-align: left;
+    font-family: "Lora",serif;
+    
+}
+
+#footer .foots li{
+    list-style: none;
+}
+
+#footer .foots li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Lora",serif;
+    line-height: 35px;
+}
+
+/* COPYRIGHTS */
+#copyrights{
+    width: 98vw;
+    background-color: black;
+    padding: 3rem 0 3rem 12rem;
+    color: #858582;
+}
+
+#copyrights span{
+    color: white;
+}
